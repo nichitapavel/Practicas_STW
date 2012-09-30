@@ -9,9 +9,14 @@ before do
   @throws = @defeat.keys
 end
 
-#get '/' do
-    #erb: index
-#end
+get '/' do
+    erb:index
+end
+
+post '/jugar' do
+	@option=params[:option]
+	redirect "/throw/#{@option}"
+end
 
 get '/throw/:type' do
   # the params hash stores querystring and form data
@@ -28,5 +33,5 @@ get '/throw/:type' do
   else
     @answer = "Well done. #{@player_throw} beats #{@computer_throw}"
   end
-  #erb :results
+  erb :results
 end
