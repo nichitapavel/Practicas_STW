@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Rock Paper Scissors</title>
+		<link rel="stylesheet" type="text/css" href="/css/test.css">
+	</head>
+	<body>
+		<h1> Rock, Paper &amp; Scissors </h1>
+		<div class="capa1">  
+			<p> You choose: <%= @player_throw %> </p>
+			<p> Computer chooses: <%= @computer_throw %> </p>
+			<h1> <%= @answer %> </h1>
+			<form id="VJugar" name="resetar" action="/">
+				<input type="submit" action="/" value="Volver a Jugar" method="get"/>
+			</form>
+		</div>
+	</body>
+</html>	
