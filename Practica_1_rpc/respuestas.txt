@@ -1,0 +1,9 @@
+¿Que ocurre si la jugada es errónea?
+
+¿y si es la cadena vacía?
+
+¿Se distingue entre mayúsculas y minúsculas?
+
+Ninguno de los casos superiores puede pasar, porque el jugador solo
+ tiene 3 opciones para responder y estas estan predeterminadas asi 
+que el jugador no se puede equivocar.
