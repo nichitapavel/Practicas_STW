@@ -1,0 +1,15 @@
+%html
+	%head
+		%title Rock Paper Scissors
+		%link{:href => "/css/test.css", :rel => "stylesheet", :type => "text/css"}
+	%body
+		%h1 Rock, Paper & Scissors
+		.capa1
+			%p Score: Computer  #{session[:computer]} - #{session[:player]} You
+			%form{:id => "Reset", :action => "/reset", :method => "post", :name => "resetscore"}
+				%input{:type => "submit", :value => "Reset Score"}
+			%p You choose: #{@player_throw}
+			%p Computer chooses: #{@computer_throw}
+			%h1 #{@answer}
+			%form{:id => "VJugar", :action => "/", :method => "get", :name => "resetar"}
+				%input{:action => "/", :type => "submit", :value => "Play Again!"}

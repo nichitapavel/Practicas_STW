@@ -1,0 +1,17 @@
+%html
+	%head
+		%title Rock Paper Scissors
+		%link{:href => "/css/test.css", :rel => "stylesheet", :type => "text/css"}
+	%body
+		%h1 Rock, Paper & Scissors
+		%div.capa1
+			%p Score: Computer #{session[:computer]} - #{session[:player]} You
+			%form{:id => "Reset", :action => "/reset", :method => "post", :name => "resetscore"}
+				%input{:type => "submit", :value => "Reset Score"}
+			%form{:id => "forma", :action => "/jugar", :method => "post", :name => "formulario"}
+				Choice your Option:
+				%select{:name => "option"}
+					%option{:selected => "", :value => "paper"} Paper
+					%option{:value => "rock"} Rock
+					%option{:value => "scissors"} Scissors
+					%input{:type => "submit", :value => "Play"}

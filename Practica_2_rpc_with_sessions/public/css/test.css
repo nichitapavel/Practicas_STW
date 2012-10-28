@@ -1,0 +1,39 @@
+body {
+	background-color: cyan;
+}
+ 
+h1 {
+	text-align: center;
+} 
+ 
+.capa1 {
+	width: 60%;
+	height: 50%;
+	margin-left: 17%;
+	background-color: red;
+	border-style: soft;
+	padding: 50px;
+}
+
+#forma {
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+#font-size:14px;
+#font-family:Verdana, Geneva, sans-serif;
+}
+
+p {
+	text-align: center;
+	font: calibri;
+	font-size: 25px;
+}
+
+#VJugar {
+	text-align: center;
+}
+
+#Reset {
+	text-align: center;
+}
