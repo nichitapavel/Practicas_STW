@@ -16,12 +16,12 @@ h1 {
 }
 
 #forma {
-margin-top: 10px;
-margin-left: auto;
-margin-right: auto;
-width: 30%;
-#font-size:14px;
-#font-family:Verdana, Geneva, sans-serif;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	#font-size:14px;
+	#font-family:Verdana, Geneva, sans-serif;
 }
 
 p {
