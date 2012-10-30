@@ -1,0 +1,12 @@
+#content .syntax_yaml .normal {}
+#content .syntax_yaml .document { font-weight: bold; color: #07F; }
+#content .syntax_yaml .type { font-weight: bold; color: #05C; }
+#content .syntax_yaml .key { color: #F88; }
+#content .syntax_yaml .comment { color: #005; font-style: italic; }
+#content .syntax_yaml .punct { color: #447; font-weight: bold; }
+#content .syntax_yaml .string { color: #944; }
+#content .syntax_yaml .number { color: #F99; }
+#content .syntax_yaml .time { color: #F99; }
+#content .syntax_yaml .date { color: #F99; }
+#content .syntax_yaml .ref { color: #944; }
+#content .syntax_yaml .anchor { color: #944; }

@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<title><%= @title || 'Toopaste!' %></title>
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<link rel="stylesheet" type="text/css" href="/css/<%= @option2 %>.css">
+	</head>
+	<body>
+		<div class="content">
+			<%= yield %>
+		</div>
+	</body>
+</html>

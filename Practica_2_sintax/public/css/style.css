@@ -1,0 +1,37 @@
+html {
+  background-color: #eee;
+}
+
+.snippet {
+  margin: 5px;
+}
+
+.snippet textarea, .snippet .sbody {
+  border: 5px dotted #eee;
+  padding: 5px;
+  width: 700px;
+  color: #fff;
+  background-color: #333;
+}
+
+.snippet textarea {
+  padding: 20px;
+}
+.snippet input, .snippet .sdate {
+  margin-top: 5px;
+}
+
+#content .syntax {
+  background-color: #333;
+  padding: 2px;
+  margin: 5px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+#content .syntax .line_number {
+  text-align: right;
+  font-family: monospace;
+  padding-right: 1em;
+  color: #999;
+}
