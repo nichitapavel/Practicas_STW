@@ -1,8 +1,0 @@
-#content .syntax_xml .normal {}
-#content .syntax_xml .namespace { color: #B66; font-weight: bold; }
-#content .syntax_xml .tag { color: #F88; }
-#content .syntax_xml .comment { color: #005; font-style: italic; }
-#content .syntax_xml .punct { color: #447; font-weight: bold; }
-#content .syntax_xml .string { color: #944; }
-#content .syntax_xml .number { color: #F99; }
-#content .syntax_xml .attribute { color: #BB7; }

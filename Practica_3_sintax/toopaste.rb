@@ -23,7 +23,7 @@ class String
               [/code]"
     html = Syntaxi.new(source).process
     %Q{
-      <div class="syntax syntax_#{leng}">
+      <div class="#{leng}">
         #{html}
       </div>
     }
