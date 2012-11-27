@@ -1,0 +1,13 @@
+%html
+	%head
+		%title= @title || 'URL Shortener'
+		%link{:href => "/css/style.css", :rel => "stylesheet", :type => "text/css"}
+	%body
+		.enlaces
+			%ul
+				%li Home
+				%li Search URL
+				%li Search ID/Custom URL
+				%li All
+		.contenido
+			= yield

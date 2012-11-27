@@ -1,0 +1,17 @@
+%html
+  %head
+    <title= @title || 'URL Shortener' />
+    <link href="css/style.css", rel="stylesheet", type="text/css"} />
+  %body
+    #roundbar-grey
+      %ul
+        %li
+          %a{:href => "/"} Home
+        %li
+          %a{:href => "/search_url"} Search URL
+        %li
+          %a{:href => "/search_short_url"} Search ID/Custom URL
+        %li
+          %a{:href => "/show"} Show All
+    .contenido
+      = yield

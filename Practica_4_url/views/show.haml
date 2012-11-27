@@ -1,0 +1,17 @@
+%h2 Entire List of Saved URL
+%table(class="table table-striped")
+	%tr
+		%td
+			%h3 URL
+		%td
+			%h3 Short URL
+		%td
+			%h3 Custom URL
+	-@url_list.each do |element|
+		%tr
+			%td
+				%a #{element[0]}
+			%td
+				%a http://#{settings.address}/#{element[1].id}
+			%td
+				%a http://#{settings.address}/#{element[2]}
