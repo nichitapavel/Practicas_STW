@@ -1,0 +1,12 @@
+%h2 Search URL
+%form(action="/search_url" method="POST")
+	%label(for="url")
+	%input(type="text" name="url" id="url" accesskey="s")
+	%input(type="submit" value="URL")
+-if !@result.nil? && !params[:url].empty?
+	%p
+		Saved URL of #{params[:url]} is:
+	%a(href="#{@result.id}")http://#{settings.address}/#{@result.id}
+	%a(href="#{@result.custom}")http://#{settings.address}/#{@result.custom}
+-elsif params[:url]
+	%p It couldn't find the shorter url in the Database.
